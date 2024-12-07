@@ -1,0 +1,21 @@
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-logo img {
+width: 50px;
+}
+
+.footer-info {
+text-align: right; 
+padding-right: 60px; 
+display: inline-block;
+width: auto;
+}

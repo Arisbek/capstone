@@ -1,0 +1,78 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 95vh;
+}
+
+main {
+  flex: 1;
+}
+
+.promo-banner {
+  background-color: orange;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.promo-banner h1 {
+  font-size: xx-large;
+}
+
+.promo-banner p {
+  font-size: 1.2rem;
+}
+
+
+@media (max-width: 768px) {
+  .info-section {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .info-box {
+      width: 80%;
+      margin-bottom: 20px;
+  }
+
+  header {
+      flex-direction: column;
+      align-items: flex-start;
+  }
+
+  .navbar ul {
+      flex-direction: column;
+      align-items: flex-start;
+  }
+
+  .navbar li {
+      margin: 10px;
+  }
+}
+
+.navbar ul {
+  display: flex;
+}
+
+.navbar li {
+  padding: 15px;
+  list-style: none;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.1rem;
+  padding: 10px;
+  transition: 0.3s;
+}
+
+.navbar a:hover {
+  background-color: orange;
+}
