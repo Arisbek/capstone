@@ -5,7 +5,7 @@ import './Header.css';
 const Header = ({ setPage }) => (
     <header>
         <div className="logo">
-            <img src="src/media/Asset 16@4x.png" alt="Little Lemon Logo" />
+            <img src="public/media/Asset 16@4x.png" alt="Little Lemon Logo" />
         </div>
         <nav className="navbar">
         <ul>
